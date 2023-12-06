@@ -8,5 +8,6 @@ public class Main {
 
         System.out.println(Faker.instance().address().fullAddress());
         System.out.println(Faker.instance().date().birthday(18, 60).toString());
+
     }
 }
